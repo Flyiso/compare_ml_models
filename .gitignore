@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+.venv/
+venv/
+ml_dl_project_env/
+
+# Ignore editor and IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore system and environment-specific files
+.DS_Store
+.env
+.venv
+.vscode-server/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.swp
+
+# ignore local test data
+test_data/
